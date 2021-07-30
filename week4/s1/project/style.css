@@ -1,0 +1,18 @@
+body{
+    background-color: #e2703a;
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: large;
+}
+h1{
+    background-color: black;
+    color: white;
+    padding: 6px;
+}
+ul{
+    background-color:#f0a500;
+    padding: 1px;
+    margin: 100px;
+    border-radius: 10px;
+    border: solid black 10px;
+}
