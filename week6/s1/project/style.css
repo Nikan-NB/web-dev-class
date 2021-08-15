@@ -1,0 +1,43 @@
+a:link {
+    color: red;
+  }
+  
+a:visited {
+    color: green;
+  }
+  
+a:hover {
+    color: hotpink;
+  }
+
+a:active {
+    color: blue;
+  }
+
+.element::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+  }
+
+  #grad1 {
+    height: 55px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  }
+
+  div.a {
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(20deg);
+  }
+
+  @font-face {
+    font-family: myFirstFont;
+    src: url(font/first_font_lower_fat_14999.zip);
+  }
+
+  .fontface{
+      font-family: myFirstFont;
+  }
