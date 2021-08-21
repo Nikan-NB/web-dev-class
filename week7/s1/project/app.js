@@ -5,7 +5,7 @@ var add = num1 + num2 + num3;
 var answer = add / 3 ;
 if( answer < 10 ){
     alert('fail')
-}else if( answer > 10 ){
+}else if( answer => 10 ){
     alert('pass')
 }
 console.log(answer);
