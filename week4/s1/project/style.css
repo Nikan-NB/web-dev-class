@@ -1,7 +1,6 @@
 body{
     background-color: #e2703a;
     text-align: center;
-    font-family: 'Reem Kufi', sans-serif;
     font-size: large;
 }
 h1{
@@ -15,4 +14,5 @@ ul{
     margin: 100px;
     border-radius: 10px;
     border: solid black 10px;
+    list-style: none;
 }
