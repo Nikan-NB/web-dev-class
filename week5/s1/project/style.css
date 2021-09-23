@@ -15,7 +15,6 @@ nav ul li{
     padding: 5px;
     margin-right: 10px;
     margin-top: 15px;
-
 }
 
 .button1{
@@ -94,12 +93,18 @@ a {
 
 #search {
     margin: 11px 4px;
-    padding: 0px 16;
+    padding: 7px 16px;
+    background-color: #f8f9fa;
+    border: #f8f9fa;
+    border-radius: 5px;
 }
 
 #lucky {
     margin: 11px 4px;
-    padding: 0px 16; 
+    padding: 7px 16px;
+    background-color: #f8f9fa;
+    border: #f8f9fa ;
+    border-radius: 5px;
 }
 
 .ul1{
