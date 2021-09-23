@@ -2,20 +2,20 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+body {
     background-color: #7D1935;
     font-family: 'Open Sans', sans-serif;
 }
 nav {
-    
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
+header nav ul{
+  width: 50%;
+  margin: auto;
   }
   
-li {
+  header nav ul li {
     display: inline-block;
   }
   
@@ -25,14 +25,16 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    margin-right: auto;
-    margin-left: auto;
   }
   
   li a:hover {
     background-color: #111;
+  }
+ul:nth-child(2) {
+  background-color: chartreuse;
+}
 
-
+footer u
 /* img{
     width: 50%;
     height: 50%;

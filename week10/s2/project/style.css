@@ -5,24 +5,37 @@
 }
 
 body {
-    background-color: white;
+    background-color: rgb(44, 43, 43);
 }
 
-div {
-    height: 33.33vh;
-}
-
-.farenheit {
-    border-bottom: 3px solid white;
-    border-top: 3px solid white;
-}
-
-input[type='number'] {
+#kilo {
+    background-color: red;
+    border-radius: 5px;
     width: 100%;
-    height: 100%;
-    background-color: black;
-    color: white;
-    font-size: 5em;
-    border: 0;
-    outline: nones;
+    margin: 10px;
+    height: 50px;
+}
+
+#gram {
+    background-color: blue;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px;
+    height: 50px;
+
+}
+
+#ounce {
+    background-color: green;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px;
+    height: 50px;
+}
+
+#input {
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
 }
