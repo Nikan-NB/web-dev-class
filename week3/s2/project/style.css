@@ -8,12 +8,15 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 nav {
+  position: sticky;
+  top: 0;
+  padding: 5px;
 }
 
 header nav ul{
-  width: 50%;
+  width: 20%;
   margin: auto;
-  }
+}
   
   header nav ul li {
     display: inline-block;
@@ -29,12 +32,38 @@ li a {
   
   li a:hover {
     background-color: #111;
-  }
-ul:nth-child(2) {
-  background-color: chartreuse;
 }
 
-footer u
+footer {
+  background-color: cadetblue;
+}
+
+.vasat {
+  position: relative;
+  margin-top: 100px;
+}
+
+#center {
+  position: absolute;
+  text-align: center;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: green;
+  display: block;
+}
+
+.aks {
+  margin-left: 75%;
+}
+
+
+
+
+
+
+
+
 /* img{
     width: 50%;
     height: 50%;

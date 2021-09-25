@@ -27,11 +27,13 @@ function goTimer() {
 }
 
 start.addEventListener('click',function() {
-    interval = setInterval(goTimer,10)
+    interval = setInterval(goTimer,10);
+    start.style.display = 'none'
 })
 
 stop.addEventListener('click' , function() {
     clearInterval(interval);
+    start.style.display = 'block'
 })
 
 reset.addEventListener('click' , function() {
