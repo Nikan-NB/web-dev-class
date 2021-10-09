@@ -38,6 +38,7 @@ stop.addEventListener('click' , function() {
 
 reset.addEventListener('click' , function() {
     clearInterval(interval);
+    start.style.display = 'block'
     milisecond = 0;
     minut = 0;
     second = 0;
